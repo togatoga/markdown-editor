@@ -1,3 +1,4 @@
+import BookUploader from '../book/uploader';
 import Logout from '@mui/icons-material/Logout';
 import {
   Avatar,
@@ -70,6 +71,8 @@ export default function Login() {
               </IconButton>
             </MenuItem>
           </Menu>
+
+          <BookUploader />
         </>
       )}
     </>

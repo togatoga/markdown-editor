@@ -10,8 +10,6 @@ function Preview(props: { content: string }) {
   }, []);
   return (
     <>
-      <Typography>Preview</Typography>
-      <Divider />
       <div className='znc'>
         <span dangerouslySetInnerHTML={{ __html: markdownToHtml(content) }} />
       </div>

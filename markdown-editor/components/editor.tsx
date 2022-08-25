@@ -20,6 +20,8 @@ export default function MyEditor() {
     <div>
       <Grid container spacing={2}>
         <Grid item xs={6}>
+          <Typography>Preview</Typography>
+          <Divider />
           <Preview content={value} />
         </Grid>
         <Grid item xs={6}>
