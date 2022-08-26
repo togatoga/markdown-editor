@@ -11,7 +11,6 @@ import {
   TextField,
   Typography,
 } from '@mui/material';
-import { width } from '@mui/system';
 import {
   PDFDict,
   PDFDocument,
@@ -68,7 +67,7 @@ function get_outlines(
   }
 }
 
-function range(start, end) {
+function range(start: number, end: number) {
   let length = end - start + 1;
   return Array.from({ length }, (_, i) => start + i - 1);
 }
